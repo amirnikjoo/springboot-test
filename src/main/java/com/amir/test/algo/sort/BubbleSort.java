@@ -2,11 +2,11 @@ package com.amir.test.algo.sort;
 
 import java.util.Arrays;
 
-public class BubbleSort {  //O(n^2)
+public class BubbleSort {
+    //quadratic time = O(n^2)
 
     public static void main(String[] args) {
-//        int[] a = new int[]{1};
-        int[] a = new int[]{8, 7, 9, 2, 3, 1, 5, 4, 6};
+        int[] a = new int[]{8, 7, 6, 2, 3, 1, 5, 9, 4};
         bubbleSort(a);
         System.out.println(Arrays.toString(a));
     }
